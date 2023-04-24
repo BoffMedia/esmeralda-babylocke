@@ -1,3 +1,4 @@
+
 const u8 gEasyChatWord_Highs[] = _("HIGHS");
 const u8 gEasyChatWord_Lows[] = _("LOWS");
 const u8 gEasyChatWord_Um[] = _("UM");
