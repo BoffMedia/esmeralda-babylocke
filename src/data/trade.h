@@ -36,6 +36,26 @@ const u8 gText_GenderlessSymbol[] = _("");
 static const u8 sText_SpaceMove[] = _(" MOVE"); // unused
 static const u8 sText_NewLine[] = _("\n");
 static const u8 sText_Slash[] = _("/");
+#if GAME_LANGUAGE == LANGUAGE_SPANISH
+static const u8 sText_Lv[] = _("Nv. ");
+static const u8 sText_ThreeDashes[] = _("---");
+static const u8 sText_FourQuestionMarks[] = _("¿¿??");
+static const u8 sText_832DAE4[] = _("");
+static const u8 sText_IsThisTradeOkay[] = _("¿Estás de acuerdo?");
+static const u8 sText_Cancel[] = _("Cancelar");
+static const u8 sText_ChooseAPkmn[] = _("Elige un Pokémon.");
+static const u8 sText_Summary[] = _("Datos");
+static const u8 sText_Trade[] = _("Intercambiar");
+static const u8 sText_CancelTrade[] = _("¿Cancelar intercambio?");
+static const u8 sJPText_PressBButtonToQuit[] = _("Bボタン　で　もどります");
+static const u8 sText_Summary2[] = _("Datos");
+static const u8 sText_Trade2[] = _("Intercambiar");
+static const u8 sText_CommunicationStandby[] = _("{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}Comunicación en espera…\nEspera un momento.");
+static const u8 sText_TheTradeHasBeenCanceled[] = _("{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}Se ha cancelado\nel intercambio.");
+static const u8 sText_OnlyPkmnForBattle[] = _("¡Ese es tu último Pokémon!");
+static const u8 sText_WaitingForYourFriend[] = _("{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}Esperando a que tu amigo\ntermine…");
+static const u8 sText_YourFriendWantsToTrade[] = _("Tu amigo quiere\nintercambiar Pokémon.");
+#else
 static const u8 sText_Lv[] = _("Lv. ");
 static const u8 sText_ThreeDashes[] = _("---");
 static const u8 sText_FourQuestionMarks[] = _("????");
@@ -54,6 +74,7 @@ static const u8 sText_TheTradeHasBeenCanceled[] = _("{COLOR DARK_GRAY}{HIGHLIGHT
 static const u8 sText_OnlyPkmnForBattle[] = _("That's your only\nPOKéMON for battle.");
 static const u8 sText_WaitingForYourFriend[] = _("{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}Waiting for your friend\nto finish…");
 static const u8 sText_YourFriendWantsToTrade[] = _("Your friend wants\nto trade POKéMON.");
+#endif
 
 static const struct OamData sOamData_MenuText =
 {
