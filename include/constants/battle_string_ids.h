@@ -640,7 +640,12 @@
 #define STRINGID_ATTACKERGAINEDSTRENGTHFROMTHEFALLEN  638
 #define STRINGID_PKMNSABILITYPREVENTSABILITY          639
 
-#define BATTLESTRINGS_COUNT                           640
+#if GAME_LANGUAGE == LANGUAGE_SPANISH
+    #define STRINGID_DOT                              640
+    #define BATTLESTRINGS_COUNT                       641
+#else
+    #define BATTLESTRINGS_COUNT                       640
+#endif	
 
 // This is the string id that gBattleStringsTable starts with.
 // String ids before this (e.g. STRINGID_INTROMSG) are not in the table,

@@ -6447,8 +6447,13 @@ static void BufferStatRoseMessage(s32 statIdx)
     gBattlerTarget = gBattlerInMenuId;
     StringCopy(gBattleTextBuff1, gStatNamesTable[sStatsToRaise[statIdx]]);
 #if B_X_ITEMS_BUFF >= GEN_7
-    StringCopy(gBattleTextBuff2, gText_StatSharply);
-    StringAppend(gBattleTextBuff2, gText_StatRose);
+    #if GAME_LANGUAGE == LANGUAGE_SPANISH
+        StringCopy(gBattleTextBuff2, gText_StatSharply);
+        StringAppend(gBattleTextBuff2, gText_StatRose);
+    #else
+        StringCopy(gBattleTextBuff2, gText_StatSharply);
+        StringAppend(gBattleTextBuff2, gText_StatRose);
+    #endif
 #else
     StringCopy(gBattleTextBuff2, gText_StatRose);
 #endif
