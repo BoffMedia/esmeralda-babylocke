@@ -7401,6 +7401,7 @@ const u8 gDeoxysPokedexText[] = _(
     "Deoxys emerged from a virus that came\n"
     "from space. It is highly intelligent and\n"
     "can shoot lasers from the crystalline\n"
+    "organ on its chest.");
 
 const u8 gChimechoPokedexText[] = _(
     "They fly about very actively when the hot\n"
