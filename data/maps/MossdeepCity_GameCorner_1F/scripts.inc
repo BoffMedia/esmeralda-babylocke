@@ -39,30 +39,30 @@ RS_MysteryEventsHouse_EventScript_Door::
 	end
 
 RS_MysteryEventsHouse_Text_OldManGreeting:
-	.string "When I was young, I traveled the world\n"
-	.string "as a POKéMON TRAINER.\p"
-	.string "Now that I've become an old buzzard,\n"
-	.string "my only amusement is watching young\l"
-	.string "TRAINERS battle.$"
+	.string	"When I was young, I traveled the world\n"
+	.string	"as a POKéMON TRAINER.\p"
+	.string	"Now that I’ve become an old buzzard,\n"
+	.string	"my only amusement is watching young\l"
+	.string	"TRAINERS battle.$"
 
 RS_MysteryEventsHouse_Text_DoorIsLocked:
-	.string "The door appears to be locked.$"
+	.string	"Parece que la puerta está atrancada.$"
 
 RS_MysteryEventsHouse_Text_ChallengeVisitingTrainer:
-	.string "A TRAINER named {STR_VAR_1} is\n"
-	.string "visiting my home.\p"
-	.string "Would you like to challenge\n"
-	.string "{STR_VAR_1}?$"
+	.string	"A TRAINER named {STR_VAR_1} is\n"
+	.string	"visiting my home.\p"
+	.string	"Would you like to challenge\n"
+	.string	"{STR_VAR_1}?$"
 
 RS_MysteryEventsHouse_Text_YouWontBattle:
-	.string "You won't battle? I'm disappointed\n"
-	.string "that I can't see you battle…$"
+	.string	"You won’t battle? I’m disappointed\n"
+	.string	"that I can’t see you battle…$"
 
 RS_MysteryEventsHouse_Text_KeepItToA3On3:
-	.string "Oh, good, good!\p"
-	.string "But my house isn't all that sturdy.\p"
-	.string "Could I ask you to keep it down to\n"
-	.string "a 3-on-3 match?$"
+	.string	"Oh, good, good!\p"
+	.string	"But my house isn’t all that sturdy.\p"
+	.string	"Could I ask you to keep it down to\n"
+	.string	"a 3-on-3 match?$"
 
 RS_MysteryEventsHouse_Text_SaveYourProgress:
 	.string "Before you two battle, you should\n"
