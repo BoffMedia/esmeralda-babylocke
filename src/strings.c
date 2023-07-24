@@ -11,10 +11,10 @@
     const u8 gText_ExpandedPlaceholder_Sapphire[] = _("SAPPHIRE");
     const u8 gText_ExpandedPlaceholder_Ruby[] = _("RUBY");
     const u8 gText_ExpandedPlaceholder_Emerald[] = _("EMERALD");
-    const u8 gText_ExpandedPlaceholder_Aqua[] = _("AQUA");
-    const u8 gText_ExpandedPlaceholder_Magma[] = _("MAGMA");
-    const u8 gText_ExpandedPlaceholder_Archie[] = _("ARCHIE");
-    const u8 gText_ExpandedPlaceholder_Maxie[] = _("Máximo");
+    const u8 gText_ExpandedPlaceholder_Aqua[] = _("Aqua");
+    const u8 gText_ExpandedPlaceholder_Magma[] = _("Magma");
+    const u8 gText_ExpandedPlaceholder_Archie[] = _("Aquiles");
+    const u8 gText_ExpandedPlaceholder_Maxie[] = _("Magno");
     const u8 gText_ExpandedPlaceholder_Kyogre[] = _("KYOGRE");
     const u8 gText_ExpandedPlaceholder_Groudon[] = _("GROUDON");
     const u8 gText_ExpandedPlaceholder_Brendan[] = _("Bruno");

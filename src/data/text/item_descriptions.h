@@ -3,24 +3,23 @@ static const u8 sDummyDesc[] = _(
 
 // Poké Balls
 static const u8 sPokeBallDesc[] = _(
-    "A tool used for\n"
-    "catching wild\n"
-    "Pokémon.");
+	"Sirve para atrapar\n"
+   	"POKéMON salvajes");
 
 static const u8 sGreatBallDesc[] = _(
-    "A good Ball with a\n"
-    "higher catch rate\n"
-    "than a Poké Ball.");
+  	"Es buena. Tiene\n"
+  	"más índice de éxito\n"
+  	"que la POKé BALL");
 
 static const u8 sUltraBallDesc[] = _(
-    "A better Ball with\n"
-    "a higher catch rate\n"
-    "than a Great Ball.");
+   	"Es muy buena. Tiene\n"
+	"más índice de éxito\n"
+	"que la SUPERBALL.");
 
 static const u8 sMasterBallDesc[] = _(
-    "The best Ball that\n"
-    "catches a Pokémon\n"
-    "without fail.");
+	"Es la mejor.\n"
+	"Atrapa siempre al\n"
+	"POKéMON. No falla.");
 
 static const u8 sPremierBallDesc[] = _(
     "A rare Ball made\n"
