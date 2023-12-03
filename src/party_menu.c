@@ -5189,6 +5189,7 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
         if (holdEffectParam == 0)
             targetSpecies = GetEvolutionTargetSpecies(mon, EVO_MODE_NORMAL, ITEM_NONE, NULL);
 
+        /*
         if (targetSpecies != SPECIES_NONE)
         {
             RemoveBagItem(gSpecialVar_ItemId, 1);
@@ -5197,13 +5198,14 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
             BeginEvolutionScene(mon, targetSpecies, TRUE, gPartyMenu.slotId);
             DestroyTask(taskId);
         }
-        else
-        {
+        */
+        //else
+        //{
             gPartyMenuUseExitCallback = FALSE;
             DisplayPartyMenuMessage(gText_WontHaveEffect, TRUE);
             ScheduleBgCopyTilemapToVram(2);
             gTasks[taskId].func = task;
-        }
+        //}
     }
     else
     {
@@ -5368,17 +5370,18 @@ static void PartyMenuTryEvolution(u8 taskId)
     sInitialLevel = 0;
     sFinalLevel = 0;
 
+    /*
     if (targetSpecies != SPECIES_NONE)
     {
         FreePartyPointers();
         gCB2_AfterEvolution = gPartyMenu.exitCallback;
         BeginEvolutionScene(mon, targetSpecies, TRUE, gPartyMenu.slotId);
         DestroyTask(taskId);
-    }
-    else
-    {
+    }*/
+    //else
+    //{
         gTasks[taskId].func = Task_ClosePartyMenuAfterText;
-    }
+    //}
 }
 
 static void DisplayMonNeedsToReplaceMove(u8 taskId)

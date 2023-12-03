@@ -6179,11 +6179,12 @@ bool8 PokemonUseItemEffects(struct Pokemon *mon, u16 item, u8 partyIndex, u8 mov
                         {
                             u16 targetSpecies = GetEvolutionTargetSpecies(mon, EVO_MODE_ITEM_USE, item, NULL);
 
+                            /*
                             if (targetSpecies != SPECIES_NONE)
                             {
                                 BeginEvolutionScene(mon, targetSpecies, FALSE, partyIndex);
                                 return FALSE;
-                            }
+                            }*/
                         }
                         break;
                     }
@@ -8606,8 +8607,8 @@ void TrySpecialOverworldEvo(void)
             sTriedEvolving |= gBitTable[i];
             if(gMain.callback2 == TrySpecialOverworldEvo) // This fixes small graphics glitches.
                 EvolutionScene(&gPlayerParty[i], targetSpecies, canStopEvo, i);
-            else
-                BeginEvolutionScene(&gPlayerParty[i], targetSpecies, canStopEvo, i);
+            /*else
+                BeginEvolutionScene(&gPlayerParty[i], targetSpecies, canStopEvo, i);*/
             if (tryMultiple)
                 gCB2_AfterEvolution = TrySpecialOverworldEvo;
             else
