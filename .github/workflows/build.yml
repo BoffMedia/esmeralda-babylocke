@@ -7,7 +7,9 @@ on:
       - battle_engine
       - pokemon_expansion
       - item_expansion
+      - pokeemerald-expansion-es
   pull_request:
+  workflow_dispatch:
 
 jobs:
   build:
