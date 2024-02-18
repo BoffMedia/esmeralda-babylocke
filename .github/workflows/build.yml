@@ -32,9 +32,6 @@ jobs:
 
       - name: Install binutils
         run: sudo apt install gcc-arm-none-eabi binutils-arm-none-eabi libelf-dev
-        # build-essential, git, and libpng-dev are already installed
-        # gcc-arm-none-eabi is only needed for the modern build
-        # as an alternative to dkP
 
       - name: Install agbcc
         run: |
@@ -55,3 +52,9 @@ jobs:
         run: |
           make -j${nproc} -O pokeemerald-test.elf
           make -j${nproc} check
+
+      - name: Upload .gba file
+        uses: actions/upload-artifact@v2
+        with:
+          name: game-file
+          path: pokeemerald_modern.gba
